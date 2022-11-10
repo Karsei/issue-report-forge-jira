@@ -12,7 +12,7 @@ import Form, {
     ValidMessage,
 } from '@atlaskit/form';
 import { Meta } from '@atlaskit/form/dist/types/field';
-import { Option, User, SearchCondition } from '../types/SearchFormTypes';
+import { Option, User, SearchCondition } from '../definitions/SearchFormTypes';
 
 export interface ReportSearchFormProps {
     onCondition: Dispatch<SetStateAction<SearchCondition | unknown>>

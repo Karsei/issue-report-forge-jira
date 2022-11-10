@@ -1,7 +1,7 @@
 import moment from 'moment';
 import {invoke} from '@forge/bridge';
-import {Comment, Issue, IssueFieldPerson} from '../types/Issue';
-import {Option} from '../types/SearchFormTypes';
+import {Comment, Issue, IssueFieldPerson} from '../definitions/Issue';
+import {Option} from '../definitions/SearchFormTypes';
 import FetchIssuesSupport from './FetchIssuesSupport';
 
 export interface IssueAggregator {

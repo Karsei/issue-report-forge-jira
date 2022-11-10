@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {IssueAggregator} from '../libs/IssueAggregatorSupport';
-import {Option} from '../types/SearchFormTypes';
+import {Option} from '../definitions/SearchFormTypes';
 
 export default function FetchIssues<T>(issueAggregator: IssueAggregator, baseDate: string | undefined, baseUser: Option[] | undefined) {
     const [error, setError] = useState('');

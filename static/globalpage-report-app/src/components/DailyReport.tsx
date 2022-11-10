@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {SuccessProgressBar} from '@atlaskit/progress-bar';
 import {DailyIssueAggregator, UserCommentGroup} from '../libs/IssueAggregatorSupport';
 import useFetchIssues from '../hooks/UseFetchIssues';
-import {SearchCondition} from '../types/SearchFormTypes';
+import {SearchCondition} from '../definitions/SearchFormTypes';
 import DailyReportTable from './DailyReportTable';
 
 export interface DailyReportProps {

@@ -11,7 +11,7 @@ import Form, {
     ValidMessage,
 } from '@atlaskit/form';
 import { Meta } from '@atlaskit/form/dist/types/field';
-import { Option, User, SearchCondition } from '../types/SearchFormTypes';
+import { Option, User, SearchCondition } from '../definitions/SearchFormTypes';
 
 export default function ReportSettingForm() {
     const [users, setUsers] = useState<Array<Option>>([]);

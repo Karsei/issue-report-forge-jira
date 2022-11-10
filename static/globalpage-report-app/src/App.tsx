@@ -5,7 +5,7 @@ import ReportSettingForm from './components/ReportSettingForm';
 import WeeklyReport from './components/WeeklyReport';
 import DailyReport from './components/DailyReport';
 
-import {SearchCondition} from './types/SearchFormTypes';
+import {SearchCondition} from './definitions/SearchFormTypes';
 
 function App() {
     const [weeklyCondition, setWeeklyCondition] = useState<SearchCondition | unknown>(null);

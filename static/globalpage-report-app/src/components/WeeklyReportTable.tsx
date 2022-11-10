@@ -3,7 +3,7 @@ import Button from '@atlaskit/button';
 import FetchIssuesSupport from '../libs/FetchIssuesSupport';
 import {ProjectGroup} from '../libs/IssueAggregatorSupport';
 import WeeklyExcel from '../libs/WeeklyExcel';
-import {AllBaseWeek, ExcelDisplay} from '../types/Report';
+import {AllBaseWeek, ExcelDisplay} from '../definitions/Report';
 import './WeeklyReportTable.scss';
 
 export interface ExcelReportTableProps {

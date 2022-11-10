@@ -1,9 +1,9 @@
 import moment from 'moment';
 import {invoke} from '@forge/bridge';
-import {Option} from '../types/SearchFormTypes';
-import {AllBaseWeek} from '../types/Report';
-import {SearchJQLRequest, SearchJQLResponse} from '../types/hooks/SearchJQL';
-import {Issue} from '../types/Issue';
+import {Option} from '../definitions/SearchFormTypes';
+import {AllBaseWeek} from '../definitions/Report';
+import {SearchJQLRequest, SearchJQLResponse} from '../definitions/hooks/SearchJQL';
+import {Issue} from '../definitions/Issue';
 
 export default class FetchIssuesSupport {
     static async getIssues(searchOption: SearchJQLRequest):Promise<Issue[]> {

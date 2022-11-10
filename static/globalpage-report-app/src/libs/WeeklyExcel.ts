@@ -2,7 +2,7 @@ import * as Excel from 'exceljs';
 import {saveAs} from 'file-saver';
 import FetchIssuesSupport from './FetchIssuesSupport';
 import {ProjectGroup} from './IssueAggregatorSupport';
-import {ExcelDisplay} from '../types/Report';
+import {ExcelDisplay} from '../definitions/Report';
 
 export default class WeeklyExcel {
     save(baseDate:string, data:ExcelDisplay[] | null) {

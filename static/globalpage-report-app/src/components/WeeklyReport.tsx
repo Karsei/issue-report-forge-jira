@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {SuccessProgressBar} from '@atlaskit/progress-bar';
 import {WeeklyIssueAggregator, ProjectGroup} from '../libs/IssueAggregatorSupport';
-import {SearchCondition} from '../types/SearchFormTypes';
+import {SearchCondition} from '../definitions/SearchFormTypes';
 import useFetchIssues from '../hooks/UseFetchIssues'
 import WeeklyReportTable from './WeeklyReportTable';
 

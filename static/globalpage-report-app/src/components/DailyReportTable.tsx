@@ -2,7 +2,7 @@ import React, {useCallback} from 'react';
 import {router} from '@forge/bridge';
 import TableTree from '@atlaskit/table-tree';
 import {CommentGroupIssues, UserCommentGroup} from '../libs/IssueAggregatorSupport';
-import {CommentBody} from '../types/Issue';
+import {CommentBody} from '../definitions/Issue';
 
 import './DailyReportTable.scss';
 
