@@ -1,0 +1,25 @@
+{
+  "name": "jira-admin-page-ui-kit",
+  "version": "1.0.7",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "ready": "npm install && npm install --prefix static/globalpage-report-app",
+    "deploy": "npm run build --prefix static/globalpage-report-app && forge deploy",
+    "lint": "./node_modules/.bin/eslint src/**/* || npm run --silent hook-errors",
+    "hook-errors": "echo '\\x1b[31mThe build failed because a Forge UI hook is being used incorrectly. Forge UI hooks follow the same rules as React Hooks but have their own API definitions. See the Forge documentation for details on how to use Forge UI hooks.\n' && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@types/react": "^16.9.9",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@forge/api": "^2.7.0",
+    "@forge/resolver": "^1.4.4"
+  }
+}

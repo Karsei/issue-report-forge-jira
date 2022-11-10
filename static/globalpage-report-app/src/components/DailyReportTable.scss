@@ -1,0 +1,32 @@
+.daily-user-group {
+  margin-bottom: 80px;
+
+  .daily-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    p, span {
+      flex-basis: 100%;
+    }
+  }
+
+  .daily-data {
+    font-size: 0.857143em;
+    font-style: inherit;
+    line-height: 1.33333;
+
+    .issue-link {
+      cursor: pointer;
+      text-decoration: none;
+      color: #5e6c84;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    img {
+      vertical-align: bottom;
+    }
+  }
+}

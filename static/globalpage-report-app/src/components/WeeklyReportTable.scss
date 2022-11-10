@@ -1,0 +1,171 @@
+.excel-result-wrapper {
+  .btn-dl-excel {
+    margin-bottom: 10px;
+  }
+  .excel-result {
+    min-width: 925px;
+    max-width: 925px;
+
+    .gridlines {
+      border-collapse: collapse;
+      page-break-after: always;
+      background-color: transparent;
+      border-spacing: 0;
+      border: 1px solid #000;
+    }
+
+    .col0 {
+      width: 71.16666585pt;
+    }
+
+    .col1 {
+      width: 246.71110828pt;
+    }
+
+    .col2 {
+      width: 61.67777707pt;
+    }
+
+    .col3 {
+      width: 61.67777707pt;
+    }
+
+    .col4 {
+      width: 61.67777707pt;
+    }
+
+    .col5 {
+      width: 66.42222145999999pt;
+    }
+
+    .col6 {
+      width: 66.42222145999999pt;
+    }
+
+    .row {
+      height: 15pt;
+
+      .report-title {
+        vertical-align: middle;
+        text-align: center;
+        border-bottom: none #000000;
+        border-top: none #000000;
+        border-left: none #000000;
+        border-right: none #000000;
+        font-weight: bold;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 11pt;
+        background-color: white;
+      }
+
+      .week-title {
+        vertical-align: middle;
+        text-align: center;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        font-weight: bold;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: #ccefff;
+      }
+
+      .left-space {
+        max-width: 462px;
+        word-wrap: break-word;
+      }
+
+      .right-space {
+        max-width: 462px;
+        word-wrap: break-word;
+      }
+
+      .common-space {
+        border-bottom: none #000000;
+        border-top: none #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: white;
+      }
+
+      .project-title-space {
+        vertical-align: middle;
+        border-bottom: none #000000;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        font-weight: bold;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: #d9d9d9;
+      }
+
+      .epic-title-space {
+        vertical-align: middle;
+        border-bottom: none #000000;
+        border-top: none #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        font-weight: bold;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: #ebebeb;
+      }
+
+      .task-title-space {
+        vertical-align: middle;
+        border-bottom: none #000000;
+        border-top: none #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        padding-left: 5px;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: white;
+      }
+
+      .subtask-title-space {
+        vertical-align: middle;
+        border-bottom: none #000000;
+        border-top: none #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        padding-left: 10px;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: white;
+      }
+
+      .blank-space {
+        vertical-align: middle;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+      }
+
+      .foot-space {
+        vertical-align: middle;
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: none #000000;
+        font-weight: bold;
+        color: #000000;
+        font-family: '맑은 고딕', serif;
+        font-size: 9pt;
+        background-color: #D9D9D9;
+      }
+    }
+  }
+}

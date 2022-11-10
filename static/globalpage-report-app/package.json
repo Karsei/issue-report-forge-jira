@@ -1,0 +1,68 @@
+{
+    "name": "weekly-report",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "dependencies": {
+        "@atlaskit/button": "^16.3.6",
+        "@atlaskit/datetime-picker": "^12.1.4",
+        "@atlaskit/form": "^8.5.7",
+        "@atlaskit/progress-bar": "^0.5.9",
+        "@atlaskit/select": "^15.6.2",
+        "@atlaskit/table-tree": "^9.2.1",
+        "@atlaskit/tabs": "^13.3.0",
+        "@atlaskit/user-picker": "^9.3.2",
+        "@forge/bridge": "^2.4.0",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^12.1.5",
+        "buffer": "^6.0.3",
+        "exceljs": "^4.3.0",
+        "file-saver": "^2.0.5",
+        "moment": "^2.29.4",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-intl-next": "npm:react-intl@^5.18.1",
+        "react-scripts": "5.0.1",
+        "sass": "^1.54.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint src/*",
+        "lint:fix": "eslint --fix src/*"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/file-saver": "^2.0.5",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.11.56",
+        "@types/react": "^16.8.25",
+        "@types/react-dom": "^16.8.5",
+        "@typescript-eslint/eslint-plugin": "^5.35.1",
+        "eslint": "^8.22.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard-with-typescript": "^22.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.2.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.0.1",
+        "eslint-plugin-react": "^7.31.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.2"
+    }
+}
