@@ -1,9 +1,19 @@
 {
-  "name": "jira-admin-page-ui-kit",
+  "name": "issue-report-forge-jira",
+  "author": "Karsei",
   "version": "1.0.7",
-  "main": "index.js",
+  "description": "Jira 용 소규모 팀을 위한 이슈 보고서 출력",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karsei/issue-report-forge-jira/issues"
+  },
+  "homepage": "https://github.com/Karsei/issue-report-forge-jira#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karsei/issue-report-forge-jira.git"
+  },
   "private": true,
+  "main": "index.js",
   "scripts": {
     "ready": "npm install && npm install --prefix static/globalpage-report-app",
     "deploy": "npm run build --prefix static/globalpage-report-app && forge deploy",
